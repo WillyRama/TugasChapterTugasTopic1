@@ -19,10 +19,10 @@ class CalculatorBmi : AppCompatActivity() {
             var hasil = edbb/((edtb * edtb)/10000)
 
             if (hasil< 16.0){
-                text.text =  "Umur Anda :$edumur tahun"+
-                        "\nTinggi :${edtb.toInt()} cm"+
-                        "\nBerat Badan :${edbb.toInt()} kg"+
-                        "\nBMI Anda :$hasil"+
+                text.text =  "Umur Anda : $edumur tahun"+
+                        "\nTinggi : ${edtb.toInt()} cm"+
+                        "\nBerat Badan : ${edbb.toInt()} kg"+
+                        "\nBMI Anda : $hasil"+
                         "\nKategori : Terlalu Kurus"
                 } else if (hasil>=16 && hasil<17){
                 text.text = "Umur Anda :$edumur tahun"+
@@ -31,44 +31,44 @@ class CalculatorBmi : AppCompatActivity() {
                         "\nBMI Anda :$hasil"+
                         "\nKategori : Cukup Kurus"
                 } else if (hasil>=17 && hasil<18.5){
-                text.text = "Umur Anda :$edumur tahun"+
-                        "\nTinggi :${edtb.toInt()} cm"+
-                        "\nBerat Badan :${edbb.toInt()} kg"+
-                        "\nBMI Anda :$hasil"+
+                text.text = "Umur Anda : $edumur tahun"+
+                        "\nTinggi : ${edtb.toInt()} cm"+
+                        "\nBerat Badan : ${edbb.toInt()} kg"+
+                        "\nBMI Anda : $hasil"+
                         "\nKategori : Sedikit Kurus"
 
                 } else if (hasil>=18.5 && hasil<25){
-                text.text = "Umur Anda :$edumur tahun"+
-                        "\nTinggi :${edtb.toInt()} cm"+
-                        "\nBerat Badan :${edbb.toInt()} kg"+
-                        "\nBMI Anda :$hasil"+
+                text.text = "Umur Anda : $edumur tahun"+
+                        "\nTinggi : ${edtb.toInt()} cm"+
+                        "\nBerat Badan : ${edbb.toInt()} kg"+
+                        "\nBMI Anda : $hasil"+
                         "\nKategori : Normal"
 
                 } else if (hasil>=25 && hasil<30){
-                text.text = "Umur Anda :$edumur tahun"+
-                        "\nTinggi :${edtb.toInt()} cm"+
-                        "\nBerat Badan :${edbb.toInt()} kg"+
-                        "\nBMI Anda :$hasil"+
+                text.text = "Umur Anda : $edumur tahun"+
+                        "\nTinggi : ${edtb.toInt()} cm"+
+                        "\nBerat Badan : ${edbb.toInt()} kg"+
+                        "\nBMI Anda : $hasil"+
                         "\nKategori : Gemuk"
 
                 } else if (hasil>=30 && hasil<35){
-                text.text = "Umur Anda :$edumur tahun"+
-                        "\nTinggi :${edtb.toInt()} cm"+
-                        "\nBerat Badan :${edbb.toInt()} kg"+
-                        "\nBMI Anda :$hasil"+
+                text.text = "Umur Anda : $edumur tahun"+
+                        "\nTinggi : ${edtb.toInt()} cm"+
+                        "\nBerat Badan : ${edbb.toInt()} kg"+
+                        "\nBMI Anda : $hasil"+
                         "\nKategori : Obesitas Kelas I"
 
                 } else if (hasil>=35 && hasil<40){
-                text.text = "Umur Anda :$edumur tahun"+
-                        "\nTinggi :${edtb.toInt()} cm"+
-                        "\nBerat Badan :${edbb.toInt()} kg"+
-                        "\nBMI Anda :$hasil"+
+                text.text = "Umur Anda : $edumur tahun"+
+                        "\nTinggi : ${edtb.toInt()} cm"+
+                        "\nBerat Badan : ${edbb.toInt()} kg"+
+                        "\nBMI Anda : $hasil"+
                         "\nKategori : Obesitas Kelas II"
                 } else if (hasil>= 40.0){
-                    text.text = "Umur Anda :$edumur tahun"+
-                            "\nTinggi :${edtb.toInt()} cm"+
-                            "\nBerat Badan :${edbb.toInt()} kg"+
-                            "\nBMI Anda :$hasil"+
+                    text.text = "Umur Anda : $edumur tahun"+
+                            "\nTinggi : ${edtb.toInt()} cm"+
+                            "\nBerat Badan : ${edbb.toInt()} kg"+
+                            "\nBMI Anda : $hasil"+
                             "\nKategori : Obesitas Kelas III"
                 }
             }

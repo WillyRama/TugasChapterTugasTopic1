@@ -20,53 +20,53 @@ class NilaiMahasiswa : AppCompatActivity() {
             var total = (uas + uts + tugas )
 
             if (Hitung in 0..60){
-                nilai.text = "Nama Mahasiswa :$nama" +
-                        "\nNIM :$nim" +
-                        "\nUAS :$uas" +
-                        "\nUTS :$uts" +
-                        "\nTugas :$tugas" +
-                        "\nTotal :$total" +
-                        "\nRata-Rata Nilai :$Hitung" +
+                nilai.text = "Nama Mahasiswa : $nama" +
+                        "\nNIM : $nim" +
+                        "\nUAS : $uas" +
+                        "\nUTS : $uts" +
+                        "\nTugas : $tugas" +
+                        "\nTotal : $total" +
+                        "\nRata-Rata Nilai : $Hitung" +
                         "\nNilai Huruf : F" +
                         "\nStatus : Tidak Lulus"
             }else if (Hitung in 61..70) {
-                nilai.text = "Nama Mahasiswa :$nama" +
-                        "\nNIM :$nim" +
-                        "\nUAS :$uas" +
-                        "\nUTS :$uts" +
-                        "\nTugas :$tugas" +
-                        "\nTotal :$total" +
-                        "\nRata-Rata Nilai :$Hitung" +
+                nilai.text = "Nama Mahasiswa : $nama" +
+                        "\nNIM : $nim" +
+                        "\nUAS : $uas" +
+                        "\nUTS : $uts" +
+                        "\nTugas : $tugas" +
+                        "\nTotal : $total" +
+                        "\nRata-Rata Nilai : $Hitung" +
                         "\nNilai Huruf : D" +
                         "\nStatus : Tidak Lulus"
             }else if (Hitung in 71..80){
-                nilai.text = "Nama Mahasiswa :$nama" +
-                        "\nNIM :$nim" +
-                        "\nUAS :$uas" +
-                        "\nUTS :$uts" +
-                        "\nTugas :$tugas" +
-                        "\nTotal :$total" +
-                        "\nRata-Rata Nilai :$Hitung" +
+                nilai.text = "Nama Mahasiswa : $nama" +
+                        "\nNIM : $nim" +
+                        "\nUAS : $uas" +
+                        "\nUTS : $uts" +
+                        "\nTugas : $tugas" +
+                        "\nTotal : $total" +
+                        "\nRata-Rata Nilai : $Hitung" +
                         "\nNilai Huruf : C" +
                         "\nStatus : Lulus"
             }else if (Hitung in 81..90){
-                nilai.text = "Nama Mahasiswa :$nama" +
-                        "\nNIM :$nim" +
-                        "\nUAS :$uas" +
-                        "\nUTS :$uts" +
-                        "\nTugas :$tugas" +
-                        "\nTotal :$total" +
-                        "\nRata-Rata Nilai :$Hitung" +
+                nilai.text = "Nama Mahasiswa : $nama" +
+                        "\nNIM : $nim" +
+                        "\nUAS : $uas" +
+                        "\nUTS : $uts" +
+                        "\nTugas : $tugas" +
+                        "\nTotal : $total" +
+                        "\nRata-Rata Nilai : $Hitung" +
                         "\nNilai Huruf : B" +
                         "\nStatus : Lulus"
             }else if (Hitung in 91..100) {
-                nilai.text = "Nama Mahasiswa :$nama" +
-                        "\nNIM :$nim" +
-                        "\nUAS :$uas" +
-                        "\nUTS :$uts" +
-                        "\nTugas :$tugas" +
-                        "\nTotal :$total" +
-                        "\nRata-Rata Nilai :$Hitung" +
+                nilai.text = "Nama Mahasiswa : $nama" +
+                        "\nNIM : $nim" +
+                        "\nUAS : $uas" +
+                        "\nUTS : $uts" +
+                        "\nTugas : $tugas" +
+                        "\nTotal : $total" +
+                        "\nRata-Rata Nilai : $Hitung" +
                         "\nNilai Huruf : A" +
                         "\nStatus : Lulus"
                 }
