@@ -21,7 +21,7 @@ class NilaiMahasiswa : AppCompatActivity() {
 
             if (Hitung in 0..60){
                 nilai.text = "Nama Mahasiswa : $nama" +
-                        "\nNIM : $nim" +
+                        "\nNim : $nim" +
                         "\nUAS : $uas" +
                         "\nUTS : $uts" +
                         "\nTugas : $tugas" +
@@ -31,7 +31,7 @@ class NilaiMahasiswa : AppCompatActivity() {
                         "\nStatus : Tidak Lulus"
             }else if (Hitung in 61..70) {
                 nilai.text = "Nama Mahasiswa : $nama" +
-                        "\nNIM : $nim" +
+                        "\nNim : $nim" +
                         "\nUAS : $uas" +
                         "\nUTS : $uts" +
                         "\nTugas : $tugas" +
@@ -41,7 +41,7 @@ class NilaiMahasiswa : AppCompatActivity() {
                         "\nStatus : Tidak Lulus"
             }else if (Hitung in 71..80){
                 nilai.text = "Nama Mahasiswa : $nama" +
-                        "\nNIM : $nim" +
+                        "\nNim : $nim" +
                         "\nUAS : $uas" +
                         "\nUTS : $uts" +
                         "\nTugas : $tugas" +
@@ -51,7 +51,7 @@ class NilaiMahasiswa : AppCompatActivity() {
                         "\nStatus : Lulus"
             }else if (Hitung in 81..90){
                 nilai.text = "Nama Mahasiswa : $nama" +
-                        "\nNIM : $nim" +
+                        "\nNim : $nim" +
                         "\nUAS : $uas" +
                         "\nUTS : $uts" +
                         "\nTugas : $tugas" +
@@ -61,7 +61,7 @@ class NilaiMahasiswa : AppCompatActivity() {
                         "\nStatus : Lulus"
             }else if (Hitung in 91..100) {
                 nilai.text = "Nama Mahasiswa : $nama" +
-                        "\nNIM : $nim" +
+                        "\nNim : $nim" +
                         "\nUAS : $uas" +
                         "\nUTS : $uts" +
                         "\nTugas : $tugas" +
