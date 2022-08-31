@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">TugasChapterTugasTopic1</string>
+    <string name="reset">Reset</string>
+    <string name="enter_weight">Masukkan Berat</string>
+    <string name="enter_height">Masukkan Tinggi</string>
+    <string name="calculate">Hitung</string>
+    <string name="judul"></string>
+    <string name="edumur"></string>
+    <string name="edTb"></string>
+    <string name="edBb"></string>
+    <string name="btnhitung"></string>
+    <string name="btnReset"></string>
+    <string name="tahun"></string>
+    <string name="cm"></string>
+    <string name="kg"></string>
+    <string name="hasil"></string>
+    <string name="text"></string>
+    <string name="textumur"></string>
+    <string name="textbb"></string>
+    <string name="btnHitung">Hitung</string>
+    <string name="nama">"Nama : "</string>
+</resources>

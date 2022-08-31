@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NilaiMahasiswa"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:text="Nilai Akhir Mahasiswa"
+        android:textStyle="bold"/>
+
+        <TableLayout
+            android:id="@+id/tabel1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+            <TableRow>
+                <TextView
+                    android:id="@+id/Nama"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nama : "
+                    android:textSize="20dp"
+                    android:textColor="@color/black"
+                    />
+                <EditText
+                    android:id="@+id/edNama"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="text" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/Nim"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nim : "
+                    android:textSize="20dp"
+                    android:textColor="@color/black"
+                    />
+                <EditText
+                    android:id="@+id/edNim"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="number" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/Uas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nilai UAS : "
+                    android:textSize="20dp"
+                    android:textColor="@color/black"
+                    />
+                <EditText
+                    android:id="@+id/edUas"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="number" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/Uts"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nilai UTS : "
+                    android:textSize="20dp"
+                    android:textColor="@color/black"
+                    />
+                <EditText
+                    android:id="@+id/edUts"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="number" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/Tugas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nilai Tugas : "
+                    android:textSize="20dp"
+                    android:textColor="@color/black"
+                    />
+                <EditText
+                    android:id="@+id/edTugas"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="number" />
+            </TableRow>
+        </TableLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="10dp">
+        <Button
+            android:id="@+id/btnHitung"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Hitung"
+            app:layout_constraintTop_toBottomOf="@id/tabel1"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@id/btnReset"
+            android:layout_marginRight="50dp"
+            />
+
+        <Button
+            android:id="@+id/btnReset"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Reset"
+            app:layout_constraintTop_toBottomOf="@id/tabel1"
+            app:layout_constraintLeft_toRightOf="@id/btnHitung"
+            app:layout_constraintRight_toRightOf="parent"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:layout_margin="20dp"
+        android:id="@+id/nilai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="10dp"/>
+</LinearLayout>
